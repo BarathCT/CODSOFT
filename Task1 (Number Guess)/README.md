@@ -84,6 +84,9 @@ npm install
 npm run dev
 ```
 
+The frontend will be available at `http://localhost:5173`
+
+
 ## ⚙️ Backend Setup
 
 ```bash
@@ -96,6 +99,9 @@ mvn clean install
 # Run the Spring Boot application
 mvn spring-boot:run
 ```
+
+The backend will be available at `http://localhost:8080`
+
 
 ## 🎮 How to Play
 
