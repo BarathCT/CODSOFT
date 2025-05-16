@@ -1,7 +1,5 @@
 # 🎯 Number Guessing Game
 
-![Project Screenshot](screenshots/gameplay.png) <!-- Replace with actual path -->
-
 A full-stack number guessing game where players try to guess a randomly generated number between 1 and 100. Built with **React (Vite)** + **Tailwind CSS** frontend and **Java Spring Boot** backend.
 
 ---
@@ -115,3 +113,12 @@ The backend will be available at `http://localhost:8080`
 5. Your **score increases** based on remaining attempts.
 6. After winning or exhausting all attempts, click **"Play Again"** to restart the game.
 
+---
+
+## 📸 Project Screenshots
+
+### Game Play Screen
+![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+
+### Score Board
+![Score Board](screenshot/numguess2.png "Score Board Screenshot")
