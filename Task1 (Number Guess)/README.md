@@ -47,28 +47,28 @@ A full-stack number guessing game where players try to guess a randomly generate
 
 ```bash
 Task1 (Number Guess)/
-├── backend/ # Spring Boot backend
+├── backend/                                        # Spring Boot backend
 │ ├── src/
 │ │ ├── main/
 │ │ │ ├── java/com/task1/numberGuess/
-│ │ │ │ ├── controller/ # REST controllers
-│ │ │ │ ├── model/ # Data models
-│ │ │ │ ├── service/ # Business logic
+│ │ │ │ ├── controller/                             # REST controllers
+│ │ │ │ ├── model/                                  # Data models
+│ │ │ │ ├── service/                                # Business logic
 │ │ │ │ └── NumberGuessApplication.java
-│ │ │ └── resources/ # Configuration files
-│ │ └── test/ # Unit tests
-│ └── pom.xml # Maven configuration
+│ │ │ └── resources/                                # Configuration files
+│ │ └── test/                                       # Unit tests
+│ └── pom.xml                                       # Maven configuration
 │
-├── frontend/ # React frontend
+├── frontend/                                       # React frontend
 │ ├── src/
-│ │ ├── components/ # React components
-│ │ ├── services/ # API service layer
-│ │ ├── App.jsx # Main application component
-│ │ └── main.jsx # Application entry point
-│ ├── public/ # Static assets
-│ └── vite.config.js # Vite configuration
+│ │ ├── components/                                 # React components
+│ │ ├── services/                                   # API service layer
+│ │ ├── App.jsx                                     # Main application component
+│ │ └── main.jsx                                    # Application entry point
+│ ├── public/                                       # Static assets
+│ └── vite.config.js                                # Vite configuration
 │
-└── README.md # Project documentation
+└── README.md                                       # Project documentation
 ```
 
 ## ⚛️ Frontend Setup
