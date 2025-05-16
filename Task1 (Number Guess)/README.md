@@ -100,6 +100,17 @@ mvn spring-boot:run
 
 The backend will be available at `http://localhost:8080`
 
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint                         | Description             |
+|--------|----------------------------------|-------------------------|
+| GET    | `/api/game/start`                | Starts a new game       |
+| POST   | `/api/game/guess?guess={number}` | Submit a guess          |
+| GET    | `/api/game/status`               | Get current game status |
+
+---
 
 ## 🎮 How to Play
 
