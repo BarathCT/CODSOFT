@@ -121,4 +121,7 @@ The backend will be available at `http://localhost:8080`
 ![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
 
 ### Score Board
-![Score Board](screenshot/numguess2.png "Score Board Screenshot")
+![Score Board Screenshot](screenshot/numguess2.png "Score Board Screenshot")
+
+### Game Over
+![Game Over Screenshot](screenshot/numguess3.png "Game Over Screenshot")
