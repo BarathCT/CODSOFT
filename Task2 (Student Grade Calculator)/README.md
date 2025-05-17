@@ -1,20 +1,21 @@
-# 🎯 Number Guessing Game
+# 🎓 Student Grade Calculator
 
-A full-stack number guessing game where players try to guess a randomly generated number between 1 and 100. Built with **React (Vite)** + **Tailwind CSS** frontend and **Java Spring Boot** backend.
+A full-stack web application that calculates total marks, average percentage, and grade based on student scores. Built with **Spring Boot (Java)** for the backend and **React + Vite + TailwindCSS** for the frontend.
 
 ---
 
 ## 🚀 Features
 
-- 🎯 Random number generation between 1-100  
-- 📊 Limited attempts (10 by default)  
-- 🔄 Multiple rounds with "Play Again" option  
-- 🏆 Scoring system based on remaining attempts  
-- 📱 Responsive design that works on all devices  
-- ⚡ Fast performance with Vite  
-- 🎨 Modern UI with Tailwind CSS  
-- 🔒 Robust backend with Spring Boot  
-- 📡 REST API communication  
+- 📝 Add Multiple Subjects – Dynamically add or remove any number of subjects with custom names
+- 📊 Real-Time Grade Calculation – Calculates total marks, average percentage, and final grade instantly
+- 🔢 Input Validation – Ensures marks are between 0 and 100
+- 🧠 Smart Grading Logic – Assigns grades from A+ to F based on calculated average
+- ♻️ Reset Functionality – Clear all fields and results with one click
+- 💡 User-Friendly UI – Simple, intuitive interface built with Tailwind CSS
+- ⚡ High Performance – Fast and responsive frontend powered by Vite
+- 🔌 Seamless Backend Integration – Communicates with Spring Boot REST API
+- 🔐 Secure & Robust – Isolated service layer for business logic and validation
+- 🔄 Extensible Architecture – Easy to scale or enhance grading logic or rules  
 
 ---
 
@@ -48,11 +49,11 @@ Task1 (Number Guess)/
 ├── backend/                                        # Spring Boot backend
 │ ├── src/
 │ │ ├── main/
-│ │ │ ├── java/com/task1/numberGuess/
-│ │ │ │ ├── controller/                             # REST controllers
-│ │ │ │ ├── model/                                  # Data models
-│ │ │ │ ├── service/                                # Business logic
-│ │ │ │ └── NumberGuessApplication.java
+│ │ │ ├── java/com/task2/studentGradeCalculator/
+│ │ │ │ ├── Controller/                             # REST controllers
+│ │ │ │ ├── Model/                                  # Data models
+│ │ │ │ ├── Service/                                # Business logic
+│ │ │ │ └── studentGradeCalculatorApplication.java
 │ │ │ └── resources/                                # Configuration files
 │ │ └── test/                                       # Unit tests
 │ └── pom.xml                                       # Maven configuration
@@ -106,33 +107,31 @@ The backend will be available at `http://localhost:8080`
 
 | Method | Endpoint                         | Description             |
 |--------|----------------------------------|-------------------------|
-| GET    | `/api/game/start`                | Starts a new game       |
-| POST   | `/api/game/guess?guess={number}` | Submit a guess          |
-| GET    | `/api/game/status`               | Get current game status |
+| POST   | `/api/grade/calculate`           | Accepts a list of marks and returns total, average percentage, and grade         |
+
 
 ---
 
 ## 🎮 How to Play
 
-1. The system generates a random number between **1 and 100**.
-2. Enter your guess in the input field.
-3. The system will provide feedback:
-   - 🔺 **Too high**
-   - 🔻 **Too low**
-   - 🎉 **Correct!**
-4. You have **10 attempts** to guess the number.
-5. Your **score increases** based on remaining attempts.
-6. After winning or exhausting all attempts, click **"Play Again"** to restart the game.
+1. Add subjects by entering the subject name and marks (0-100).
+
+2. Use the **Add Subject** button to add more subjects.
+
+3. Use the **Remove** button to delete any unwanted subject entries.
+
+4. Click the **Calculate Grade** button to submit the marks.
+
+5. View the results showing total marks, average percentage, and the final grade.
+
+6. Use the **Reset** button to clear all inputs and start fresh.
 
 ---
 
 ## 📸 Project Screenshots
 
-### Game Play Screen
-![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+### Home Screen
+![Actual Calculator](screenshot/calc1.png "Actual Calculator")
 
-### Score Board
-![Score Board Screenshot](screenshot/numguess2.png "Score Board Screenshot")
-
-### Game Over
-![Game Over Screenshot](screenshot/numguess3.png "Game Over Screenshot")
+### Result
+![Result](screenshot/calc2.png "Result")
