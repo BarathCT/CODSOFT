@@ -112,7 +112,7 @@ The backend will be available at `http://localhost:8080`
 
 ---
 
-## 🎮 How to Play
+## 🎮 How to Use
 
 1. Add subjects by entering the subject name and marks (0-100).
 
