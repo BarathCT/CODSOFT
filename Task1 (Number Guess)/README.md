@@ -20,15 +20,18 @@ A full-stack number guessing game where players try to guess a randomly generate
 
 ## 🧰 Technologies Used
 
-### 🖥️ Frontend
-- **Vite** – Next generation frontend tooling
-- **React** – JavaScript library for building user interfaces
-- **Tailwind CSS** – Utility-first CSS framework
-- **Axios** – Promise-based HTTP client
+### 🖥️ Frontend  
+| Technology | Purpose |  
+|------------|---------|  
+| ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Blazing fast builds |  
+| ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) | Interactive UI components |  
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwind-css&logoColor=white) | Utility-first styling |  
+| ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white) | HTTP requests |  
 
-### 🖧 Backend
-- **Spring Boot** – Java framework for microservices
-- **Spring Web** – For building RESTful services
+### 🖧 Backend  
+| Technology | Purpose |  
+|------------|---------|  
+| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) | REST API service | 
 
 ---
 
