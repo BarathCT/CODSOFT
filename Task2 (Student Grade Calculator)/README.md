@@ -21,20 +21,6 @@ A full-stack web application that calculates total marks, average percentage, an
 
 ## 🧰 Technologies Used
 
-### 🖥️ Frontend
-- **Vite** – Next generation frontend tooling
-- **React** – JavaScript library for building user interfaces
-- **Tailwind CSS** – Utility-first CSS framework
-- **Axios** – Promise-based HTTP client
-
-### 🖧 Backend
-- **Spring Boot** – Java framework for microservices
-- **Spring Web** – For building RESTful services
-
----
-
-## 🧰 Technologies Used
-
 ### 🖥️ Frontend  
 | Technology | Purpose |  
 |------------|---------|  
