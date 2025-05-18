@@ -1,34 +1,36 @@
-# 🎯 Number Guessing Game
+# 🏧 ATM Machine Simulator
 
-A full-stack number guessing game where players try to guess a randomly generated number between 1 and 100. Built with **React (Vite)** + **Tailwind CSS** frontend and **Java Spring Boot** backend.
+A full-stack ATM simulation with **React (Vite) + Tailwind CSS** frontend and **Spring Boot** backend, featuring secure transactions and realistic UI.
 
 ---
 
 ## 🚀 Features
-
-- 🎯 Random number generation between 1-100  
-- 📊 Limited attempts (10 by default)  
-- 🔄 Multiple rounds with "Play Again" option  
-- 🏆 Scoring system based on remaining attempts  
-- 📱 Responsive design that works on all devices  
-- ⚡ Fast performance with Vite  
-- 🎨 Modern UI with Tailwind CSS  
-- 🔒 Robust backend with Spring Boot  
-- 📡 REST API communication  
+- 💳 **Card Insertion Animation** with interactive UI  
+- 🔐 **PIN Authentication** (4-digit validation)  
+- 💸 **Transaction Processing**:  
+  - ➖ Cash withdrawals with balance checks  
+  - ➕ Deposits with instant updates  
+  - 📊 Real-time balance inquiries  
+- 🧾 **Digital Receipts** for all transactions  
+- ♿ **Keyboard Accessible** navigation  
+- 📱 **Mobile-First Design** (fully responsive)   
 
 ---
 
 ## 🧰 Technologies Used
 
-### 🖥️ Frontend
-- **Vite** – Next generation frontend tooling
-- **React** – JavaScript library for building user interfaces
-- **Tailwind CSS** – Utility-first CSS framework
-- **Axios** – Promise-based HTTP client
+### Frontend  
+| Technology | Purpose |  
+|------------|---------|  
+| ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Blazing fast builds |  
+| ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) | Interactive UI components |  
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwind-css&logoColor=white) | Utility-first styling |  
+| ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white) | HTTP requests |  
 
-### 🖧 Backend
-- **Spring Boot** – Java framework for microservices
-- **Spring Web** – For building RESTful services
+### Backend  
+| Technology | Purpose |  
+|------------|---------|  
+| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) | REST API service |  
 
 ---
 
@@ -48,7 +50,7 @@ Task1 (Number Guess)/
 ├── backend/                                        # Spring Boot backend
 │ ├── src/
 │ │ ├── main/
-│ │ │ ├── java/com/task1/numberGuess/
+│ │ │ ├── java/com/task3/atmInterface/
 │ │ │ │ ├── controller/                             # REST controllers
 │ │ │ │ ├── model/                                  # Data models
 │ │ │ │ ├── service/                                # Business logic
@@ -104,25 +106,22 @@ The backend will be available at `http://localhost:8080`
 
 ## 📡 API Endpoints
 
-| Method | Endpoint                         | Description             |
-|--------|----------------------------------|-------------------------|
-| GET    | `/api/game/start`                | Starts a new game       |
-| POST   | `/api/game/guess?guess={number}` | Submit a guess          |
-| GET    | `/api/game/status`               | Get current game status |
+| Method | Endpoint           | Description           |
+|--------|--------------------|-----------------------|
+| POST   | /api/atm/withdraw  | Process withdrawal     |
+| POST   | /api/atm/deposit   | Process deposit        |
+| GET    | /api/atm/balance   | Check account balance  |
 
 ---
 
-## 🎮 How to Play
+## How to Use
 
-1. The system generates a random number between **1 and 100**.
-2. Enter your guess in the input field.
-3. The system will provide feedback:
-   - 🔺 **Too high**
-   - 🔻 **Too low**
-   - 🎉 **Correct!**
-4. You have **10 attempts** to guess the number.
-5. Your **score increases** based on remaining attempts.
-6. After winning or exhausting all attempts, click **"Play Again"** to restart the game.
+1. Open the frontend URL in your browser.
+2. Insert the ATM card by clicking on the card UI.
+3. Enter your account number and 4-digit PIN (default demo PIN: `1234`).
+4. Select the desired transaction: Withdraw, Deposit, or Check Balance.
+5. Follow prompts to complete your transaction.
+6. Use the **Exit** button to end the session.
 
 ---
 
