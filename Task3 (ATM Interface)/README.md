@@ -127,11 +127,27 @@ The backend will be available at `http://localhost:8080`
 
 ## 📸 Project Screenshots
 
-### Game Play Screen
-![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+### Auth Page (Login Screen)
+![Auth Page (Login Screen)](screenshot/atm1.png "Auth Page (Login Screen)")
 
-### Score Board
-![Score Board Screenshot](screenshot/numguess2.png "Score Board Screenshot")
+### Card Swipe Screen
+![Card Swipe Screen](screenshot/atm2.png "Card Swipe Screen")
 
-### Game Over
-![Game Over Screenshot](screenshot/numguess3.png "Game Over Screenshot")
+### Auth Page After Card Swipe
+![Auth Page After Card Swipe](screenshot/atm3.png "Auth Page After Card Swipe")
+
+### Main Menu Screen
+![Main Menu Screen](screenshot/atm4.png "Main Menu Screen")
+
+### Balance Inquiry Screen
+![Balance Inquiry Screene](screenshot/atm5.png "Balance Inquiry Screen")
+
+### Deposit Transaction Screen
+![Deposit Transaction Screen](screenshot/atm6.png "Deposit Transaction Screen")
+![Deposit Transaction Screen](screenshot/atm7.png "Deposit Transaction Screen")
+
+### Withdrawal Transaction Screen
+![Withdrawal Transaction Screen](screenshot/atm8.png "Withdrawal Transaction Screen")
+![Withdrawal Transaction Screen](screenshot/atm9.png "Withdrawal Transaction Screen")
+
+
