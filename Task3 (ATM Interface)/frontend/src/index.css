@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Custom styles */
+.atm-machine {
+  height: 600px;
+}
+
+.atm-screen {
+  min-height: 200px;
+}
+
+.receipt {
+  background: linear-gradient(to bottom, white 0%, white 90%, #f0f0f0 100%);
+}
+
+.chip {
+  background: linear-gradient(135deg, #d4af37 0%, #f9d423 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.chip::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+}
