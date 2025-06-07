@@ -66,11 +66,11 @@ currency-converter/
 │   └── vite.config.js                              # Vite config
 │
 └── README.md                                       # Project documentation
-
+```
 
 ## ⚛️ Frontend Setup
 
-bash
+```bash
 # Navigate to the frontend directory
 cd frontend
 
@@ -79,7 +79,7 @@ npm install
 
 # Start the development server
 npm run dev
-
+```
 
 
 The frontend will be available at http://localhost:5173
@@ -87,7 +87,7 @@ The frontend will be available at http://localhost:5173
 
 ## ⚙️ Backend Setup
 
-bash
+```bash
 # Navigate to the backend directory
 cd backend
 
@@ -100,7 +100,7 @@ mvn spring-boot:run
 
 
 The backend will be available at http://localhost:8080
-
+```
 ---
 
 
@@ -113,6 +113,7 @@ The backend will be available at http://localhost:8080
 | GET    | `/api/convert?from=<FROM>&to=<TO>`  | Replace `<FROM>` and `<TO>` with currency codes  |
 
 ✅ **Sample Response:**
+
 ```json
 {
   "from": "USD",
@@ -120,6 +121,29 @@ The backend will be available at http://localhost:8080
   "rate": 83.17,
   "lastUpdated": "2025-06-07T13:45:30Z"
 }
+```
+---
+
+## 📋 How to Use
+
+1. **Enter the amount** you want to convert.
+2. **Select** the **"From"** currency and the **"To"** currency.
+3. Click **"Convert"** to fetch the latest exchange rate.
+4. The **converted amount** and **exchange rate** will be displayed instantly.
+5. Use the 🔁 **Swap** button to switch currencies quickly.
+
 
 ---
 
+## 📸 Project Screenshots
+
+### 🌐 Currency Converter UI
+
+#### 🧮 Main Screen
+![Main UI](./screenshot/converter1.png "Currency Converter Main UI")
+
+#### 🔄 Swapping Currencies
+![Swap Action](./screenshot/converter2.png "Currency Swap Feature")
+
+#### 📊 Conversion Result
+![Conversion Result](./screenshot/converter3.png "Converted Amount Display")
