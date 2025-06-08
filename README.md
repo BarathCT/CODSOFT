@@ -13,7 +13,6 @@ A collection of 5 full-stack applications built using **React (Vite)**, **Tailwi
 * Backend in Spring Boot generates and validates the random number.
 
 
-### Game Play Screen
 ![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
 
 ---
@@ -26,8 +25,7 @@ A collection of 5 full-stack applications built using **React (Vite)**, **Tailwi
 * Backend logic handles grade assignment and evaluation.
 
 
-### Game Play Screen
-![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+![Student Grade Calculator](screenshot/calc1.png "Student Grade Calculator")
 
 ---
 
@@ -38,9 +36,8 @@ A collection of 5 full-stack applications built using **React (Vite)**, **Tailwi
 * Features include: balance check, withdrawal, deposit.
 * Backend maintains virtual account state.
 
-
-### Game Play Screen
-![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+![Card Page](screenshot/atm2.png "Card Page")
+![Transaction Page](screenshot/atm4.png "Transaction Page")
 
 ---
 
@@ -52,8 +49,7 @@ A collection of 5 full-stack applications built using **React (Vite)**, **Tailwi
 * Clean, responsive UI with conversion history.
 
 
-### Game Play Screen
-![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+![Currency Converter](screenshot/converter1.png "Currency Converter")
 
 ---
 
@@ -65,8 +61,8 @@ A collection of 5 full-stack applications built using **React (Vite)**, **Tailwi
 * Features include search, sorting, and real-time updates.
 
 
-### Game Play Screen
-![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+![Student Management System Home](screenshot/student1.png "Student Management System Home")
+![With Student Details](screenshot/student4.png "With Student Details")
 
 
 ---
