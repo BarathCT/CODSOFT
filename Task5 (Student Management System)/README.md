@@ -1,34 +1,44 @@
-# 💱 Currency Converter
+# 🎓 Student Management System
 
-A full-stack currency converter app with **React (Vite) + Tailwind CSS** frontend and **Spring Boot** backend, providing real-time currency exchange conversion with a clean, responsive UI.
+A full-stack Student Management System with React (Vite) + Tailwind CSS frontend and Spring Boot backend, providing seamless management of student data with a clean, responsive UI.
 
 ---
 
 ## 🚀 Features
-- 💰 Convert amounts between multiple currencies (USD, EUR, GBP, JPY, etc.)  
-- 🔄 Swap "From" and "To" currencies easily  
-- 📡 Fetches latest exchange rates from backend API  
-- 🕒 Shows last updated time for exchange rates  
-- ⚠️ Error handling for network or API failures  
-- 📱 Fully responsive design with Tailwind CSS  
-- 🚀 Fast frontend with Vite + React hooks  
+
+- 🧑‍🎓 Add, update, delete student records
+
+- 🔍 Search students by name, ID, or course
+
+- 📋 View student details and list all students
+
+- 🗂️ Pagination and sorting support
+
+- ⚠️ Error handling for form validation and network issues
+
+- 📱 Fully responsive design with Tailwind CSS
+
+- 🚀 Fast frontend with Vite + React hooks
 
 ---
 
 ## 🧰 Technologies Used
 
 ### 🖥️ Frontend  
-| Technology | Purpose |  
-|------------|---------|  
-| ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) | Fast frontend build tool |  
-| ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) | UI components and state management |  
-| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwind-css&logoColor=white) | Utility-first CSS framework |  
+| Technology                                                                                           | Purpose                            |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite\&logoColor=white)                         | Fast frontend build tool           |
+| ![React](https://img.shields.io/badge/React-61DAFB?logo=react\&logoColor=black)                      | UI components and state management |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwind-css\&logoColor=white) | Utility-first CSS framework        |
+
 
 ### 🖧 Backend  
-| Technology | Purpose |  
-|------------|---------|  
-| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot&logoColor=white) | RESTful API service |  
-| ![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apache-maven&logoColor=white) | Java project management |  
+| Technology                                                                                        | Purpose                 |
+| ------------------------------------------------------------------------------------------------- | ----------------------- |
+| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=spring-boot\&logoColor=white) | RESTful API service     |
+| ![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apache-maven\&logoColor=white)            | Java project management |
+| ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql\&logoColor=white)                   | Relational database     |
+
 
 ---
 
@@ -44,28 +54,30 @@ A full-stack currency converter app with **React (Vite) + Tailwind CSS** fronten
 ## 📁 Project Structure
 
 ```bash
-currency-converter/
+student-management-system/
 ├── backend/                                        # Spring Boot backend
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/com/yourorg/currencyconverter/
+│   │   │   ├── java/com/yourorg/studentmanagement/
 │   │   │   │   ├── controller/                     # REST controllers
 │   │   │   │   ├── service/                        # Business logic
-│   │   │   │   ├── model/                          # Data models
-│   │   │   │   └── CurrencyConverterApplication.java
+│   │   │   │   ├── model/                          # Data models/entities
+│   │   │   │   ├── repository/                     # Spring Data repositories
+│   │   │   │   └── StudentManagementApplication.java
 │   │   │   └── resources/                          # Config files (application.properties)
 │   │   └── test/                                   # Unit tests
 │   └── pom.xml                                     # Maven config
 │
 ├── frontend/                                       # React frontend
 │   ├── src/
-│   │   ├── components/                             # React components (CurrencyConverter.jsx)
+│   │   ├── components/                             # React components (StudentList.jsx, StudentForm.jsx, etc.)
 │   │   ├── App.jsx                                 # Main app component
 │   │   └── main.jsx                                # Entry point
 │   ├── public/                                     # Static assets
 │   └── vite.config.js                              # Vite config
 │
 └── README.md                                       # Project documentation
+
 ```
 
 ## ⚛️ Frontend Setup
@@ -155,24 +167,33 @@ The backend will be available at http://localhost:8080
 
 ## 📸 Project Screenshots
 
-### 🌐 Currency Converter UI
+### 🧑‍🎓 Student List Page
 
 #### 🧮 Main Screen
 ![Main UI](./screenshot/student1.png "Student Management System Main UI")
 
-#### Adding Student Details
+---
+
+#### 📋 Adding Student Details
 ![Adding Details](./screenshot/student2.png "Adding Student Details")
 ![Added](./screenshot/student3.png "Added")
 
-#### After Inserted Multiple Student Data
+---
+
+#### 📋 After Inserting Multiple Students – 👨‍🎓👩‍🎓 Student Records Overview
 ![Multiple Student Data](./screenshot/student4.png "Multiple Student Data")
 
 
-#### Searching Student
+---
+
+#### Searching Student – 👁️ Quick Filter by Name or ID
 ![Searching Student](./screenshot/student5.png "Searching Student")
 ![Searching Student](./screenshot/student6.png "Searching Student")
 
+---
 
-#### Updating Student Details
+#### 🔄 Updating Student Details – 🛠️ Edit and Save
 ![Before update](./screenshot/converter3.png "Before update")
 ![After update](./screenshot/converter3.png "After update")
+
+---
