@@ -12,11 +12,25 @@ A collection of 5 full-stack applications built using **React (Vite)**, **Tailwi
 * React handles the UI and form input.
 * Backend in Spring Boot generates and validates the random number.
 
+
+### Game Play Screen
+![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+
+---
+
+
 ### 2. 📊 Student Grade Calculator
 
 * Users input marks for various subjects.
 * Calculates average, percentage, and grade.
 * Backend logic handles grade assignment and evaluation.
+
+
+### Game Play Screen
+![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+
+---
+
 
 ### 3. 🏧 ATM Interface
 
@@ -24,17 +38,36 @@ A collection of 5 full-stack applications built using **React (Vite)**, **Tailwi
 * Features include: balance check, withdrawal, deposit.
 * Backend maintains virtual account state.
 
+
+### Game Play Screen
+![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+
+---
+
+
 ### 4. 💱 Currency Converter
 
 * Convert currency in real-time.
 * Fetches live exchange rates via backend API.
 * Clean, responsive UI with conversion history.
 
+
+### Game Play Screen
+![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+
+---
+
+
 ### 5. 🧑‍🎓 Student Management System
 
 * Complete CRUD operations (Create, Read, Update, Delete).
 * Fully integrated with a **MySQL** database.
 * Features include search, sorting, and real-time updates.
+
+
+### Game Play Screen
+![Number Guessing Game Screenshot](screenshot/numguess1.png "Game Play Screenshot")
+
 
 ---
 
