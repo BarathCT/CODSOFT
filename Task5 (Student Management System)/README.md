@@ -193,7 +193,7 @@ The backend will be available at http://localhost:8080
 ---
 
 #### 🔄 Updating Student Details – 🛠️ Edit and Save
-![Before update](./screenshot/converter3.png "Before update")
-![After update](./screenshot/converter3.png "After update")
+![Before update](./screenshot/student7.png "Before update")
+![After update](./screenshot/student8.png "After update")
 
 ---
